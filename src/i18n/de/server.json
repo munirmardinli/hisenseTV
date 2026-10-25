@@ -1,0 +1,65 @@
+{
+  "log": {
+    "listening": "TV-Fernbedienung läuft lokal auf http://{host}:{port}",
+    "target": "Zielgerät: {brand} {model} ({tvHost})",
+    "failed": "TV-Anfrage fehlgeschlagen. {message}",
+    "listenFailed": "Der lokale TV-Server konnte nicht gestartet werden. {message}"
+  },
+  "trace": {
+    "request": "Anfrage {method} {path}",
+    "remoteKey": "Taste {key} an {host}",
+    "uiClick": "Oberfläche: Taste {detail}",
+    "uiField": "Oberfläche: Feld {detail}, Länge {length}",
+    "uiState": "Oberfläche: {detail}",
+    "buttons": "Fernbedienungstasten: {detail}",
+    "locked": "gesperrt",
+    "unlocked": "aktiv",
+    "connect": "Verbinde mit {host}, Client {clientId}",
+    "connack": "Fernseher hat die Verbindung angenommen",
+    "subscribe": "Abonniere {topic}",
+    "suback": "Abonnement {topic}: {code}",
+    "pinAccepted": "Der Fernseher hat die PIN angenommen.",
+    "pinRejected": "Der Fernseher hat die PIN abgelehnt.",
+    "publish": "Sende {topic} Payload {payload}",
+    "incoming": "Fernseher: {topic} Payload {payload}",
+    "ping": "Ping vom Fernseher beantwortet",
+    "closed": "Verbindung zum Fernseher geschlossen",
+    "noReply": "Keine Antwort vom Fernseher nach der PIN",
+    "pinRequired": "Fernseher zeigt eine PIN. Taste {key} wird nicht gesendet."
+  },
+  "api": {
+    "paired": "Fernseher ist lokal gekoppelt.",
+    "notPaired": "Noch nicht gekoppelt.",
+    "notFound": "Seite oder API nicht gefunden.",
+    "originRejected": "Anfragequelle wurde abgelehnt.",
+    "pinPrompt": "Bitte die vierstellige PIN am Fernseher ablesen und hier eingeben.",
+    "pinInvalid": "Bitte die vierstellige TV-PIN eingeben.",
+    "pinFirst": "Bitte zuerst am Fernseher die PIN anfordern.",
+    "pinSent": "PIN gesendet. Teste die Fernbedienung mit einer Taste; VIDAA bestätigt die Kopplung nicht per Antwort.",
+    "keyRejected": "Dieser Fernbedienungsbefehl ist nicht erlaubt.",
+    "pairFirst": "Kopple zuerst den Fernseher mit der PIN.",
+    "commandSent": "Befehl an den Fernseher gesendet.",
+    "bodyTooLarge": "Anfrage ist zu groß.",
+    "bodyInvalid": "Ungültiger Anfrageinhalt.",
+    "deviceInvalid": "Gespeicherte TV-Kopplung ist ungültig. Bitte erneut koppeln.",
+    "unknown": "Unbekannter Fehler."
+  },
+  "mac": {
+    "missing": "In der ARP-Antwort wurde keine MAC-Adresse für {host} gefunden. Antwort: {reply}. Prüfe, ob der Fernseher eingeschaltet und erreichbar ist."
+  },
+  "vidaa": {
+    "timeout": "Zeitüberschreitung beim TV-Verbindungsaufbau.",
+    "unexpected": "Der Fernseher hat eine unerwartete Antwort gesendet.",
+    "mqttRejected": "Der Fernseher hat die Verbindung abgelehnt (MQTT {code}).",
+    "closed": "Der Fernseher hat die Verbindung geschlossen.",
+    "noConnection": "Keine aktive Verbindung zum Fernseher.",
+    "refused": "Der Fernseher lehnt Port {port} ab. Schalte ihn ein und aktiviere unter Einstellungen → Verbindung → Verbindung mit einem mobilen Endgerät → Inhaltsfreigabe. Akzeptiere außerdem unter Einstellungen → Support → Haftungsausschluss und Datenschutz die Datenweitergabe, dann starte den Fernseher neu.",
+    "certsMissing": "In {path} fehlen vidaa_client.pem und vidaa_client.key. Lege eine .p12 aus der VIDAA-App in diesen Ordner und starte neu.",
+    "certsCreated": "Client-Zertifikat wurde nach {path} geschrieben.",
+    "certsRejected": "Die .p12 in {path} enthält kein Zertifikat der VIDAA-Stelle.",
+    "certsFailed": "Client-Zertifikat konnte nicht geschrieben werden: {message}"
+  },
+  "config": {
+    "invalid": "Konfiguration ist ungültig: {detail}"
+  }
+}

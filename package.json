@@ -1,0 +1,50 @@
+{
+  "name": "hisense-tv",
+  "version": "1.0.0",
+  "description": "Lokale Fernbedienung für Hisense-Fernseher mit VIDAA.",
+  "type": "module",
+  "author": {
+    "name": "Munir Mardinli",
+    "url": "https://github.com/munirmardinli"
+  },
+  "license": "MIT",
+  "homepage": "https://munir.mardinli.dev",
+  "keywords": [
+    "hisense",
+    "vidaa",
+    "fernbedienung",
+    "remote",
+    "tv"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "src",
+    "config.example.json",
+    "vite.config.ts",
+    "tsconfig.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "predev": "vite build",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "mqtt-packet": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "esbuild@0.25.12": true
+  }
+}

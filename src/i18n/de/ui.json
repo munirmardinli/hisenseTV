@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "{brand} {model}"
+  },
+  "hero": {
+    "heading": "{brand} {model}",
+    "lead": "Verbinde dich direkt im Heimnetz und steuere den Fernseher mit den Tasten unten."
+  },
+  "pair": {
+    "heading": "Einmalig mit dem Fernseher koppeln",
+    "lead": "Der Fernseher zeigt eine PIN. Gib sie hier ein, um die Tasten freizuschalten.",
+    "start": "PIN am TV anzeigen",
+    "confirm": "PIN bestätigen",
+    "pinLabel": "Vierstellige PIN vom Fernseher",
+    "pinPlaceholder": "••••"
+  },
+  "status": {
+    "paired": "Fernseher gekoppelt. Du kannst jetzt eine Taste senden.",
+    "unpaired": "Noch nicht gekoppelt. Drücke „PIN am TV anzeigen“, um zu starten.",
+    "requesting": "Verbinde mich mit dem Fernseher und fordere eine PIN an …",
+    "pairFailed": "Kopplung fehlgeschlagen: {message}",
+    "sendingPin": "Sende die PIN an den Fernseher …",
+    "pinFailed": "PIN konnte nicht bestätigt werden: {message}",
+    "needPair": "Kopple zuerst den Fernseher.",
+    "sendingKey": "Befehl wird gesendet …",
+    "keyFailed": "Steuerbefehl fehlgeschlagen: {message}",
+    "serverDown": "Lokaler Steuerungsserver nicht erreichbar: {message}",
+    "unknown": "Unbekannter Fehler."
+  },
+  "remote": {
+    "keys": {
+      "KEY_POWER": "⏻",
+      "KEY_HOME": "⌂",
+      "KEY_RETURNS": "↩",
+      "KEY_UP": "▲",
+      "KEY_DOWN": "▼",
+      "KEY_LEFT": "◀",
+      "KEY_RIGHT": "▶",
+      "KEY_OK": "OK",
+      "KEY_VOLUMEUP": "＋",
+      "KEY_VOLUMEDOWN": "－",
+      "KEY_MUTE": "⊘",
+      "KEY_PLAY": "▷"
+    },
+    "names": {
+      "KEY_POWER": "Ein/Aus",
+      "KEY_HOME": "Home",
+      "KEY_RETURNS": "Zurück",
+      "KEY_UP": "Hoch",
+      "KEY_DOWN": "Runter",
+      "KEY_LEFT": "Links",
+      "KEY_RIGHT": "Rechts",
+      "KEY_OK": "OK",
+      "KEY_VOLUMEUP": "Lauter",
+      "KEY_VOLUMEDOWN": "Leiser",
+      "KEY_MUTE": "Stumm",
+      "KEY_PLAY": "Wiedergabe"
+    }
+  },
+  "trace": {
+    "locked": "gesperrt",
+    "unlocked": "aktiv"
+  },
+  "footer": {
+    "lead": "Erstellt von ",
+    "name": "Munir Mardinli",
+    "href": "https://munir.mardinli.dev"
+  }
+}

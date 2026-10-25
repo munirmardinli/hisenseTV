@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "{brand} {model}"
+  },
+  "hero": {
+    "heading": "{brand} {model}",
+    "lead": "Connect on your home network and control the TV with the buttons below."
+  },
+  "pair": {
+    "heading": "Pair with the TV once",
+    "lead": "The TV shows a PIN. Enter it here to unlock the buttons.",
+    "start": "Show PIN on TV",
+    "confirm": "Confirm PIN",
+    "pinLabel": "Four-digit PIN from the TV",
+    "pinPlaceholder": "••••"
+  },
+  "status": {
+    "paired": "TV paired. You can send a button now.",
+    "unpaired": "Not paired yet. Press “Show PIN on TV” to start.",
+    "requesting": "Connecting to the TV and requesting a PIN …",
+    "pairFailed": "Pairing failed: {message}",
+    "sendingPin": "Sending the PIN to the TV …",
+    "pinFailed": "The PIN could not be confirmed: {message}",
+    "needPair": "Pair the TV first.",
+    "sendingKey": "Sending command …",
+    "keyFailed": "Command failed: {message}",
+    "serverDown": "Local control server is unreachable: {message}",
+    "unknown": "Unknown error."
+  },
+  "remote": {
+    "keys": {
+      "KEY_POWER": "⏻",
+      "KEY_HOME": "⌂",
+      "KEY_RETURNS": "↩",
+      "KEY_UP": "▲",
+      "KEY_DOWN": "▼",
+      "KEY_LEFT": "◀",
+      "KEY_RIGHT": "▶",
+      "KEY_OK": "OK",
+      "KEY_VOLUMEUP": "＋",
+      "KEY_VOLUMEDOWN": "－",
+      "KEY_MUTE": "⊘",
+      "KEY_PLAY": "▷"
+    },
+    "names": {
+      "KEY_POWER": "Power",
+      "KEY_HOME": "Home",
+      "KEY_RETURNS": "Back",
+      "KEY_UP": "Up",
+      "KEY_DOWN": "Down",
+      "KEY_LEFT": "Left",
+      "KEY_RIGHT": "Right",
+      "KEY_OK": "OK",
+      "KEY_VOLUMEUP": "Volume up",
+      "KEY_VOLUMEDOWN": "Volume down",
+      "KEY_MUTE": "Mute",
+      "KEY_PLAY": "Play"
+    }
+  },
+  "trace": {
+    "locked": "locked",
+    "unlocked": "active"
+  },
+  "footer": {
+    "lead": "Created by ",
+    "name": "Munir Mardinli",
+    "href": "https://munir.mardinli.dev"
+  }
+}

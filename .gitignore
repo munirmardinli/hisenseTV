@@ -1,0 +1,8 @@
+29B6B6DF-BDAA-41A7-B3BA-C68FEFDA5169.heic
+image.png
+.vscode/
+node_modules/
+dist/
+assets/*.log
+src/certs/
+config.json

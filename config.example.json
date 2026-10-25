@@ -1,0 +1,24 @@
+{
+  "locale": "de",
+  "server": {
+    "host": "127.0.0.1",
+    "port": 5174
+  },
+  "tv": {
+    "host": "here-your-tv-ip-address",
+    "port": 36669,
+    "macAddress": "here-your-tv-mac-address",
+    "brand": "Hisense",
+    "model": "43A6N",
+    "operatingSystem": "VIDAA"
+  },
+  "certs": {
+    "certFile": "src/certs/vidaa_client.pem",
+    "keyFile": "src/certs/vidaa_client.key"
+  },
+  "storage": {
+    "directory": ".config/hisense-tv-control",
+    "fileName": "device.json"
+  },
+  "logFile": "assets/server.log"
+}

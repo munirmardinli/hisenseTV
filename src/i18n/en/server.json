@@ -1,0 +1,65 @@
+{
+  "log": {
+    "listening": "TV remote is running locally at http://{host}:{port}",
+    "target": "Target device: {brand} {model} ({tvHost})",
+    "failed": "TV request failed. {message}",
+    "listenFailed": "The local TV server could not start. {message}"
+  },
+  "trace": {
+    "request": "Request {method} {path}",
+    "remoteKey": "Key {key} to {host}",
+    "uiClick": "Interface: button {detail}",
+    "uiField": "Interface: field {detail}, length {length}",
+    "uiState": "Interface: {detail}",
+    "buttons": "Remote buttons: {detail}",
+    "locked": "locked",
+    "unlocked": "active",
+    "connect": "Connecting to {host}, client {clientId}",
+    "connack": "The TV accepted the connection",
+    "subscribe": "Subscribing to {topic}",
+    "suback": "Subscription {topic}: {code}",
+    "pinAccepted": "The TV accepted the PIN.",
+    "pinRejected": "The TV rejected the PIN.",
+    "publish": "Sending {topic} payload {payload}",
+    "incoming": "TV: {topic} payload {payload}",
+    "ping": "Answered a ping from the TV",
+    "closed": "Connection to the TV closed",
+    "noReply": "No reply from the TV after the PIN",
+    "pinRequired": "The TV is showing a PIN. Key {key} is not sent."
+  },
+  "api": {
+    "paired": "The TV is paired locally.",
+    "notPaired": "Not paired yet.",
+    "notFound": "Page or API not found.",
+    "originRejected": "Request origin was rejected.",
+    "pinPrompt": "Read the four-digit PIN on the TV and enter it here.",
+    "pinInvalid": "Enter the four-digit TV PIN.",
+    "pinFirst": "Request the PIN on the TV first.",
+    "pinSent": "PIN sent. Try the remote with a button; VIDAA does not confirm pairing with a reply.",
+    "keyRejected": "This remote command is not allowed.",
+    "pairFirst": "Pair the TV with the PIN first.",
+    "commandSent": "Command sent to the TV.",
+    "bodyTooLarge": "Request is too large.",
+    "bodyInvalid": "Invalid request body.",
+    "deviceInvalid": "The saved TV pairing is invalid. Pair again.",
+    "unknown": "Unknown error."
+  },
+  "mac": {
+    "missing": "The ARP reply contained no MAC address for {host}. Reply: {reply}. Check that the TV is on and reachable."
+  },
+  "vidaa": {
+    "timeout": "Timed out while connecting to the TV.",
+    "unexpected": "The TV sent an unexpected reply.",
+    "mqttRejected": "The TV rejected the connection (MQTT {code}).",
+    "closed": "The TV closed the connection.",
+    "noConnection": "No active connection to the TV.",
+    "refused": "The TV refuses port {port}. Turn it on and enable Settings → Connection → Connect to a mobile device → Content sharing. Also accept data sharing under Settings → Support → Disclaimer and Privacy, then restart the TV.",
+    "certsMissing": "vidaa_client.pem and vidaa_client.key are missing in {path}. Put a .p12 file from the VIDAA app in that folder and start again.",
+    "certsCreated": "Client certificate was written to {path}.",
+    "certsRejected": "The .p12 file in {path} does not contain a VIDAA certificate.",
+    "certsFailed": "The client certificate could not be written: {message}"
+  },
+  "config": {
+    "invalid": "Configuration is invalid: {detail}"
+  }
+}
