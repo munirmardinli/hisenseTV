@@ -132,7 +132,7 @@ class VidaaClient {
     const socket = tls.connect({
       host: this.host,
       port: this.tvPort,
-      rejectUnauthorized: false,
+      rejectUnauthorized: true,
       cert: readFileSync(this.certFile),
       key: readFileSync(this.keyFile),
     });
